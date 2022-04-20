@@ -36,14 +36,14 @@ public class Quiz {
 			else {
 				JOptionPane.showMessageDialog(null, "Invalid answer, please enter A,B,C,D or E.");
 			}
-		}
+		}// end of while loop
 			
 			
 			
 		
-		}
+		}// end of main
 		
 		
 		
-	}
+	}//end  of public class Quiz
 
