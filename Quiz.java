@@ -1,4 +1,11 @@
-
+/***
+ * 
+ * This program asks the user a multiple choice question. The program displays the question until the user answers the question correctly.
+ * If user replies a wrong answer the program displays either incorrect or invalid answer.
+ * Author Btt : 20220420 : 6:23 PM
+ * 
+ * 
+ */
 import javax.swing.JOptionPane;
 public class Quiz {
 
