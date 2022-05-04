@@ -1,3 +1,7 @@
+/** 
+This program creates multiple choice questions. It has two instance methods; ask & check and one class method showResults
+*/
+
 import javax.swing.JOptionPane;
 
 public class MultipleChoiceQuestion {
