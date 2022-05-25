@@ -33,7 +33,7 @@ public class Quiz {
 				 "Earth",
 				 "Mars",
 				 "Jupiter",
-				 "e"
+				 "E"
 				 );
 		
 		

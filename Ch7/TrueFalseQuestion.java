@@ -9,14 +9,14 @@ public class TrueFalseQuestion extends Question {
 		//creating JPanel to organize the true false questions
 		JPanel buttonsPanel = new JPanel();
 		//adding true & false buttons by calling addButton method
-		addButton(buttonsPanel,"True");
-		addButton(buttonsPanel, "False");
+		addButton(buttonsPanel,"TRUE");
+		addButton(buttonsPanel, "FALSE");
 		//adding the buttons panel to the dialog box
 		this.question.add(buttonsPanel);
 		//calling initQuestion method
 		this.initQuestionDialog();
 		//setting the instance variable correctAnswer to the (correct) teacher answer 
-		this.correctAnswer = answer.toUpperCase();
+		this.correctAnswer = answer; //.toUpperCase();
 	}// end of TrueFalseQuestion constructor
 	
 	//defining addButton method

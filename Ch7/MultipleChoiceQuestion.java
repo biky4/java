@@ -18,7 +18,7 @@ public class MultipleChoiceQuestion extends Question{
 			this.initQuestionDialog();
 			
 			// initialization of correctAnswer
-			correctAnswer = answer.toUpperCase(); 
+			correctAnswer = answer; //.toUpperCase(); 
 			
 		} // end of constructor MultipleChoiceQuestion()
 		
